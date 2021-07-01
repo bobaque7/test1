@@ -1,79 +1,11 @@
-{
-.text > .header > .name::after, .reply > .header > .name::after {
-     content: 'chad';
-     position: relative;
-     top: -1px;
-     left: 4px;
-     padding: 5px 8px;
-     border-radius: 10px;
-     font-size: 1.2rem;
-     font-family: "Times New Roman", Times, serif;
-     font-weight: bold;
-     color: #fff;
-     transition: .5s;
-     animation-duration: 10s;
-     animation-iteration-count: infinite;
-     animation-name: rainbow;
-     animation-timing-function: ease-in-out;
-}
-
-
- .about > .content-wrap {
- border-style: solid;
-  border-width: thin;
-  border-color: rgba(61, 180, 242);
-  background: rgba(0,0,0,0.5);
-}
-
-
- .overview .wrap, .overview .content-wrap {
-  border-style: solid;
-  border-width: thin;
-  border-color: rgba(61, 180, 242);
-   background: rgba(0,0,0,0.5);
-}
-
- .favourite {
-  border-style: solid !important;
-  border-width: thin !important;
-  border-color: rgba(61, 180, 242) !important;
-   background: rgba(0,0,0,0.5);
-}
-
- .input{
- border-style: solid;
-  border-width: thin;
-  border-color: rgba(61, 180, 242);
-   background: rgba(0,0,0,0.5);
-}
-  .stats-wrap > .list-stats, .page-content.wrap, .reply, .load-more, .el-textarea{
-  border-style: solid;
-  border-width: thin;
-  border-radius: 20px;
-  border-color: rgb(61, 180, 242);
-   background: rgba(0,0,0,0.5);
-  overflow: hidden !important;
-}
-.content.container{
-  background: transparent !important;
-}
-.nav-wrap {
-    border-radius: 20px !important;
-    border: solid 2px rgb(61, 180, 242);
-    width: 80% !important;
-    margin: 0 auto;
-     background: rgba(0,0,0,0.5);
-}
 /* bobaque v1.5 */
-/*go show love to akaashibaby and hrishidod <3 */
-
-a[href="/user/Hrishidod/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'dummiedod ' !important; }
+/* go kiss akaashibaby and hrishidod */
 
 /* background wallpaper */
 body{
     cursor: url(https://tobiasahlin.com/static/cursors/default.png), auto;
     background-color: rgb(var(--color-foreground));
-    background: url(https://i.postimg.cc/Fz2DXWSb/Pics-Art-06-15-01-46-45.jpg);
+    background: url(https://files.catbox.moe/fg3q06.jpg);
     background-position: center / 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,16 +18,6 @@ body{
     background-color: rgb(36, 37, 56, 0);
 }
 
- .logo img[data-v-4fbac4e1] {
-    content: url(https://files.catbox.moe/4kb1xr.gif);
-}
-.logo:hover {
-    transition: transform 0.69s ease-in-out;
-    transform: scale(1.6);
-    border-radius: 20px;
-    overflow: hidden;
-}
-   
 /* hides the HOH download button on banner */
 .hohDownload {
     display: none;
@@ -120,15 +42,6 @@ body{
     content: url(https://files.catbox.moe/4kb1xr.gif);
 }
 
-.nav-wrap[data-v-5445dac8] {
-    background: rgb(var(--color-foreground));
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 30px;
-}
-.nav[data-v-5445dac8] {
-    padding: 0px;
-}
 /* content container */
 .content.container {
     background-color: rgba(0, 0, 0, 0);
@@ -137,7 +50,7 @@ body{
     border-radius: 0 0 15px 15px;
 }
 
-/* modify activity status - overview - “dont bully me pls” - activity status replies - "”> corners rounded */
+/* modify activity status - overview - “write a status” - activity status replies - “write a reply”> corners rounded */
 .wrap[data-v-1bf2cf4e] {
     border-radius: 15px 15px 15px 15px;
     overflow: auto;
@@ -219,7 +132,7 @@ border-radius: 12px;
 .section > .stats-wrap > .list-stats > .stats-wrap .stat .value {
 
 
-   font-size: 1.2rem;
+   font-size: 2rem;
 
 
    padding-bottom: 0px;
@@ -433,7 +346,7 @@ border-radius: 12px;
     width: 80px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 100%;
+    background-position: 50%;
 }
 
 /* change profile nav bar */
