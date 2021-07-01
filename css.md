@@ -1,3 +1,89 @@
+.banner-content > .avatar{
+  margin-left: 30%;
+}
+ .about > .content-wrap {
+ border-style: solid;
+  border-width: thin;
+  border-color: rgba(61, 180, 242);
+}
+
+
+ .overview .wrap, .overview .content-wrap {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(61, 180, 242);
+}
+
+ .favourite {
+  border-style: solid !important;
+  border-width: thin !important;
+  border-color: rgba(61, 180, 242) !important;
+}
+
+ .input{
+ border-style: solid;
+  border-width: thin;
+  border-color: rgba(61, 180, 242);
+}
+  .stats-wrap > .list-stats, .page-content.wrap, .reply, .load-more, .el-textarea{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  border-color: rgb(61, 180, 242);
+  overflow: hidden !important;
+}
+.content.container{
+  background: transparent !important;
+}
+.nav-wrap {
+    border-radius: 20px !important;
+    border: solid 2px rgb(61, 180, 242);
+    width: 80% !important;
+    margin: 0 auto;
+}
+.banner-content > .avatar{
+  margin-left: 30%;
+}
+ .about > .content-wrap {
+ border-style: solid;
+  border-width: thin;
+  border-color: rgba(61, 180, 242);
+}
+
+
+ .overview .wrap, .overview .content-wrap {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(61, 180, 242);
+}
+
+ .favourite {
+  border-style: solid !important;
+  border-width: thin !important;
+  border-color: rgba(61, 180, 242) !important;
+}
+
+ .input{
+ border-style: solid;
+  border-width: thin;
+  border-color: rgba(61, 180, 242);
+}
+  .stats-wrap > .list-stats, .page-content.wrap, .reply, .load-more, .el-textarea{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  border-color: rgb(61, 180, 242);
+  overflow: hidden !important;
+}
+.content.container{
+  background: transparent !important;
+}
+.nav-wrap {
+    border-radius: 20px !important;
+    border: solid 2px rgb(61, 180, 242);
+    width: 80% !important;
+    margin: 0 auto;
+}
 /* bobaque v1.5 */
 /* go kiss akaashibaby and hrishidod */
 
