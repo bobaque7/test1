@@ -120,6 +120,15 @@ body{
     content: url(https://files.catbox.moe/4kb1xr.gif);
 }
 
+.nav-wrap[data-v-5445dac8] {
+    background: rgb(var(--color-foreground));
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.nav[data-v-5445dac8] {
+    padding: 0px;
+}
 /* content container */
 .content.container {
     background-color: rgba(0, 0, 0, 0);
