@@ -1,3 +1,20 @@
+.text > .header > .name::after, .reply > .header > .name::after {
+     content: 'chad';
+     position: relative;
+     top: -1px;
+     left: 4px;
+     padding: 5px 8px;
+     border-radius: 10px;
+     font-size: 1.2rem;
+     font-family: "Times New Roman", Times, serif;
+     font-weight: bold;
+     color: #fff;
+     transition: .5s;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     animation-name: rainbow;
+     animation-timing-function: ease-in-out;
+}
 .banner-content > .avatar{
   margin-left: 30%;
 }
@@ -85,7 +102,9 @@
     margin: 0 auto;
 }
 /* bobaque v1.5 */
-/* go kiss akaashibaby and hrishidod */
+/* go kiss hrishidod */
+
+ a[href="/user/Hrishidod/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'dummidod ' !important; }
 
 /* background wallpaper */
 body{
